@@ -13,6 +13,7 @@ function App() {
           <Route path='/' element={<Suspense fallback={<div>Loading...</div>}><Main /></Suspense>} />
         </Route>
         <Route path='/login' element={<Suspense fallback={<div>Loading...</div>}><Login loggedInSet={loggedInSet} /></Suspense>} />
+        <Route path='*' element={<div>Not Found</div>} />
       </Routes>
     </Router>
   );
