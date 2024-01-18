@@ -4,4 +4,4 @@
 
 ### Setup
 
-`npm i react-router-dom` for latest version
+`pnpm i react-router-dom` for latest version
