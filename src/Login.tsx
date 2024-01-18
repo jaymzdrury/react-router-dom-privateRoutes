@@ -6,7 +6,7 @@ function Login({loggedInSet}:{loggedInSet: (loggedInSet: boolean) => void}) {
     loggedInSet(true)
     naviagte('/')
   }
-  return <button role='button' onClick={onClick}>LOG IN</button>
+  return <button onClick={onClick}>LOG IN</button>
 }
 
 export default Login
